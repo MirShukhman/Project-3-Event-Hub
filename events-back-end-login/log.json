@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "datetime": "2024-03-11 20:50:39.939887",
+    "class-name": "UserBackend",
+    "func_name": "get_user_by_id",
+    "func_input": "(2, '$2b$12$bACB11J.uczJkSOSSzZIdupNT1StDuUG24JKt/nTUL0gQQM/AM3aC', 35)",
+    "func_output": "<Users 35>"
+  },
+  {
+    "id": 2,
+    "datetime": "2024-03-11 20:50:39.957146",
+    "class-name": "<class 'modules.event_categories.EventCategories'>",
+    "func_name": "get_by_id",
+    "func_input": "10",
+    "func_output": "<EventCategories 10>"
+  },
+  {
+    "id": 3,
+    "datetime": "2024-03-11 20:50:39.970631",
+    "class-name": "BackendBase",
+    "func_name": "get_category_by_id",
+    "func_input": "None",
+    "func_output": "<EventCategories 10>"
+  },
+  {
+    "id": 4,
+    "datetime": "2024-03-11 20:50:40.423448",
+    "class-name": "UserBackend",
+    "func_name": "_get_authentication",
+    "func_input": "$2b$12$bACB11J.uczJkSOSSzZIdupNT1StDuUG24JKt/nTUL0gQQM/AM3aC",
+    "func_output": "True"
+  },
+  {
+    "id": 5,
+    "datetime": "2024-03-11 20:50:40.440468",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_by_id",
+    "func_input": "35",
+    "func_output": "<Users 35>"
+  },
+  {
+    "id": 6,
+    "datetime": "2024-03-11 20:50:40.459462",
+    "class-name": "UserBackend",
+    "func_name": "get_user_by_id",
+    "func_input": "(2, '$2b$12$bACB11J.uczJkSOSSzZIdupNT1StDuUG24JKt/nTUL0gQQM/AM3aC', 35)",
+    "func_output": "<Users 35>"
+  },
+  {
+    "id": 7,
+    "datetime": "2024-03-11 20:50:40.487321",
+    "class-name": "UserBackend",
+    "func_name": "_get_authentication",
+    "func_input": "$2b$12$bACB11J.uczJkSOSSzZIdupNT1StDuUG24JKt/nTUL0gQQM/AM3aC",
+    "func_output": "True"
+  },
+  {
+    "id": 8,
+    "datetime": "2024-03-11 20:50:40.511329",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_by_id",
+    "func_input": "35",
+    "func_output": "<Users 35>"
+  },
+  {
+    "id": 9,
+    "datetime": "2024-03-11 20:50:40.537601",
+    "class-name": "UserBackend",
+    "func_name": "get_user_by_id",
+    "func_input": "(2, '$2b$12$bACB11J.uczJkSOSSzZIdupNT1StDuUG24JKt/nTUL0gQQM/AM3aC', 35)",
+    "func_output": "<Users 35>"
+  },
+  {
+    "id": 10,
+    "datetime": "2024-03-14 15:35:35.508738",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 11,
+    "datetime": "2024-03-14 15:35:36.004272",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 12,
+    "datetime": "2024-03-14 15:35:36.506913",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 13,
+    "datetime": "2024-03-14 15:35:43.501230",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 14,
+    "datetime": "2024-03-14 15:35:43.994867",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 15,
+    "datetime": "2024-03-14 15:35:44.469572",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 16,
+    "datetime": "2024-03-14 15:35:44.500826",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 17,
+    "datetime": "2024-03-14 15:35:44.976394",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 18,
+    "datetime": "2024-03-14 15:35:45.470096",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 19,
+    "datetime": "2024-03-14 15:37:00.350509",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 20,
+    "datetime": "2024-03-14 15:37:00.840592",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 21,
+    "datetime": "2024-03-14 15:37:01.342454",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 22,
+    "datetime": "2024-03-14 15:40:45.283476",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 23,
+    "datetime": "2024-03-14 15:40:45.771524",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 24,
+    "datetime": "2024-03-14 15:40:46.276104",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 25,
+    "datetime": "2024-03-14 15:42:20.352987",
+    "class-name": "<class 'modules.users.Users'>",
+    "func_name": "get_user_by_username",
+    "func_input": "{'username': 'elisheva1'}",
+    "func_output": "[(2, 'elisheva1', '$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq', 'elisheva@gmail.com', 'Elisheva Cohen', 'I realyyy like to party', datetime.datetime(2024, 2, 27, 23, 4, 30, 217000), True, True)]"
+  },
+  {
+    "id": 26,
+    "datetime": "2024-03-14 15:42:20.857156",
+    "class-name": "BackendBase",
+    "func_name": "_check_password",
+    "func_input": "$2b$12$H5.841uLPvq89a2OcqNQDOkzWrcJl.kgGZDKwt76MAlJkhJXqTNOq",
+    "func_output": "True"
+  },
+  {
+    "id": 27,
+    "datetime": "2024-03-14 15:42:21.369233",
+    "class-name": "BackendBase",
+    "func_name": "login",
+    "func_input": "elisheva1",
+    "func_output": "logged in"
+  },
+  {
+    "id": 28,
+    "datetime": "2024-03-14 15:47:40.373252",
+    "class-name": "BackendBase",
+    "func_name": "logout",
+    "func_input": "None",
+    "func_output": "logout sucsess"
+  }
+]
